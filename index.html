@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<title>RL Clock</title>
+<!-- https://css-tricks.com/emojis-as-favicons/ -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#x23f0;</text></svg>">
+
+<script src="https://unpkg.com/axios@0.21.4/dist/axios.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link href="style.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="./main.js"></script>
+
+<body onload="init()" style="display: none;">
+
+    <div class="container">
+        <div class="row text-center">
+            <!-- <div class="col-12 h1 fw-bold" style="color: #8d293e;">RL Clock</div> -->
+            <div class="col-12 display-1 fw-bold" style="color: #8d293e;">RL Clock</div>
+
+        </div>
+        
+        <!-- Separator -->
+        <div class="row text-center"><div class="col-12" id="divider">&nbsp;</div></div>
+        
+        
+        <!-- Name - Block-->
+
+        <div class="row text-center">
+            <div class="col-12 display-6" id="period-block">
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-12 display-5" id="min-remaining">
+            </div>
+        </div>   
+  
+        <!-- <hr> -->
+        <div class="row text-center">
+            <div class="col-12" id="divider">
+            </div>
+        </div> 
+
+        <div class = "row">
+            <div class = "col-12" id="block-container"></div>
+        </div>
+    </div>
+
+
+
+<footer class="footer fixed-bottom text-center" style="padding: 10px; position:relative;">
+    <div class="container"><span class="text-muted">A friendly &#x1f98a; recreation. &#169;&nbsp;2021</span></div>
+    <div class="container"><span class="text-muted small"> The original creators, Mr. Poles, Will Hutter and Kevin Wang&#x270c;</span></div>
+
+</footer>
+
+</body>
+</html>

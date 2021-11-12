@@ -1,0 +1,51 @@
+body {
+    background-color: #F8F8F8;
+}
+
+.blockTime {
+    display: inline;
+    margin-right: 1rem;
+    float:right;
+    color:grey;
+}
+
+.blockName {
+    display: inline;
+    /* float:left; */
+    margin-left: 1rem;
+}
+
+.block{
+    height: 2rem;
+    width: 50%;
+    margin-top: .75rem;
+    margin-inline: auto;
+}
+
+.lunchBlock{
+    height: 2rem;
+    width: 50%;
+    margin-inline: auto;
+}
+
+.lunchBlockTime {
+    margin-bottom:0;
+}
+
+.past{
+    background-color: #e6e6e6;
+}
+.current{
+    background-color: rgb(39, 209, 115);
+}
+.future{
+    background-color: white;
+}
+
+.currentTime{
+    color: black;
+}
+
+#block-container{
+
+}
