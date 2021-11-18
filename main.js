@@ -237,7 +237,7 @@ function updateTable(schedule){
         } else {
 
             
-            if(item.name.includes('First Lunch')){
+            if(item.name.includes('First Lunch') || item.name.includes('1st Lunch')){
                 let dashIndex = item.name.indexOf(' - ') + 2;
                 blockName.innerText = item.name.substring(dashIndex);
 
@@ -249,7 +249,7 @@ function updateTable(schedule){
 
                 block.classList.add('lunchBlock')    
                 blockTime.classList.add('lunchBlockTime')           
-            } else if (item.name.includes('Second Lunch')){
+            } else if (item.name.includes('Second Lunch') || item.name.includes('2nd Lunch')){
                 let dashIndex = item.name.indexOf(' - ') + 2;
                 blockName.innerText = item.name.substring(dashIndex);
                 
